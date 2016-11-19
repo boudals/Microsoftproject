@@ -6,6 +6,10 @@
 <body>
 <style>
 @font-face {
+   font-family: retetasapt;
+   src: url(fonts/retetasapt.ttf); 
+}
+@font-face {
     font-family: titlefont;
     src: url(fonts/titlefont.otf);
 }
@@ -24,7 +28,6 @@
     font-size: 100px;
     font-family: titlefont;
     text-align: center;
-    background-color: pink;
 }
 p.one {
     border: groove gray;
@@ -48,7 +51,7 @@ p.one {
     cursor: pointer;
 }
 .button1 {
-    background-color: rosybrown;
+    background-color:sandybrown;
     color: black;
     border: 1px dot black;
 }
@@ -58,20 +61,21 @@ p.one {
 }
 h1 {
     color: black;
-    text-align: centre;
+    text-align: center;
 }
 h2 {
     color: black;
     font-family: inherit;
 }
 body {
-    background-color: pink;
+    background-image: url(pics/pageb.jpg);
 }
 div.box1 {
-    background-color: rosybrown;
+    background-color: sandybrown;
     width: 1800px;
-    border: 5px solid darkred;
+    border: 5px solid deeppink;
     padding: 15px;
+    text-align: :center;
     margin: 15px;
     font-family: pfont;
 }
@@ -87,23 +91,61 @@ div.reteta {
     border-right: 30px groove;
     border-top: 30px groove;
     border-bottom: 30px groove;
+    border-left:30px groove;
+}
+.buttoncontact {
+     background-color:pink ;
+    border: solid;
+    color: black;
+    border-color:black;
+    padding: 15px 32px;
+    border-width: 5px;
+    text-align: center;
+    font-family: impact;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 0px 0px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    position:absolute;
+    right:0px;
+    top:0px;
+}.buttonreteta{
+     background-color:pink ;
+    border: solid;
+    color: black;
+    border-color:black;
+    padding: 15px 26px;
+    border-width: 5px;
+    text-align: center;
+    font-family: impact;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 0px 0px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    position:absolute;
+    right:0px;
+    top:60px;
 }
 div.titlereteta {
-    border: 3px groove darkred;
     font-size: 50px;
-    font-family: titlefont;
-    background-color: gold;
+    font-family: retetasapt;
     display: inline-block;
     margin: 10px;
-    left: 150px;
-    bottom: 550px;
+    left: 80px;
+    bottom:565px;
     position: absolute;
 }
 div.descreteta {
-    border: 3px groove darkred;
+    border: 3px groove transparent;
     font-size: 50px;
     font-family: titlefont;
-    background-color: gold;
+    background-color: transparent;
     display: inline-block;
     margin: 10px;
     left: 150px;
@@ -167,9 +209,9 @@ p.top {
 }
 </style>
 <div id="title"> Tinerii Bucatari </div>
-<div class="box1"><strong> Oferirea unor sfaturi utile pentru adolescenti pentru executarea unor retete simple, rapide si savuroase;
+<div class="box1"><center><strong> Oferirea unor sfaturi utile pentru adolescenti pentru executarea unor retete simple, rapide si savuroase;
 Informarea adolescentilor asupra beneficiilor unei alimentatii rationale
-Stabilirea scopului realizarii proiectului.</strong></div>
+Stabilirea scopului realizarii proiectului.</center></strong></div>
 <div>
 <center>
 <a href="#" class="button button1">Home</a>
@@ -177,8 +219,8 @@ Stabilirea scopului realizarii proiectului.</strong></div>
     <li>
 <a href="#" class="button button1">More Meat</a>
 <ul>
-    <li><a href="#" class="button button1">Microwave</a></li>
-    <li><a href="#" class="button button1">15 minute</a></li>
+    <li><a href="#" class="button button1">Grill</a></li>
+    <li><a href="#" class="button button1">Fish</a></li>
 </ul>
     </li>
 </ul>
@@ -186,8 +228,8 @@ Stabilirea scopului realizarii proiectului.</strong></div>
     <li>
 <a href="#" class="button button1">Fast Cooking</a>
 <ul>
-    <li><a href="#" class="button button1">Grill</a></li>
-    <li><a href="#" class="button button1">Fish</a></li>
+    <li><a href="#" class="button button1">Microwave</a></li>
+    <li><a href="#" class="button button1">15 Minute</a></li>
 </ul>
     </li>
 </ul>
@@ -202,19 +244,18 @@ Stabilirea scopului realizarii proiectului.</strong></div>
 </ul>
 <ul>
     <li>
-<a href="#" class="button button1">Healty Lifestyle</a>
+<a href="#" class="button button1">Healthy Lifestyle</a>
 <ul>
     <li><a href="#" class="button button1">Salate</a></li>
     <li><a href="#" class="button button1">Innocent Delights</a></li>
-</ul>
-    </li>
 </ul>
 </center>
 </div>
 <p class="one"></p>
 <div class="reteta"></div>
 <div class="titlereteta">Reteta Saptamanii!</div>
-<p dir="rtl" class="copyright">All rights reserved.&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;TineriiBucatari*2016.</p>
-
+<center><p  class="copyright"> Termeni si conditii.</p></center>
+<a href="#" class="buttoncontact button1">Contact</a>
+<a href="#" class="buttonreteta button1">Reteta Ta</a>
 </body>
 </html>
